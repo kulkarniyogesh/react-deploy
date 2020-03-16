@@ -97,4 +97,13 @@ $ git remote add origin https://github.com/{username}/react-deploy.git
 #deploy application
 $ npm run deploy
 
+# to verify your app deployed in github pages go to settings tab of your repository and check 
+# you can see your app deployed in github pages message with green background hilighted
 
+
+#add all changed file paths to staged changes
+$ git add .
+#commit all staged changes
+$ git commit -m "Create a React app and publish it to GitHub Pages"
+#pushed local repository to remote repository on GitHub
+$ git push origin master
